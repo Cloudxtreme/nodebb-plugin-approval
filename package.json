@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-approval",
+  "version": "0.0.1",
+  "description": "NodeBB Admin Approval Plugin",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgezginis/nodebb-plugin-approval"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin"
+  ],
+  "author": {
+    "name": "tgezginis",
+    "email": "tgezginis@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tgezginis/nodebb-plugin-approval/issues"
+  },
+  "homepage": "https://github.com/tgezginis/nodebb-plugin-approval",
+  "maintainers": [
+    {
+      "name": "tgezginis",
+      "email": "tgezginis@gmail.com"
+    }
+  ],
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"id": "nodebb-plugin-approval",
+	"name": "NodeBB Admin Approval Plugin",
+	"description": "NodeBB Plugin that auto add news users to non-approved group.",
+	"url": "https://github.com/tgezginis/nodebb-plugin-approval",
+	"library": "./library.js",
+    "hooks": [
+        {
+            "hook": "action:user.create", "method": "moveToGroup"
+        }
+    ],
+    "staticDirs": {
+    },
+    "less": [
+    ],
+    "scripts": [
+    ],
+    "templates": ""
+}
